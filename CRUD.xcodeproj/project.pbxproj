@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63065439267DB9F9001EC3C6 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63065438267DB9F9001EC3C6 /* ImagePickerView.swift */; };
+		631379D12688367200B571E7 /* TagShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631379D02688367200B571E7 /* TagShapeView.swift */; };
 		638091552675FAC000688FF4 /* CRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638091542675FAC000688FF4 /* CRUDApp.swift */; };
 		638091572675FAC000688FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638091562675FAC000688FF4 /* ContentView.swift */; };
 		638091592675FAC900688FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638091582675FAC900688FF4 /* Assets.xcassets */; };
 		6380915C2675FAC900688FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380915B2675FAC900688FF4 /* Preview Assets.xcassets */; };
+		638091652675FC5300688FF4 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 638091632675FC5300688FF4 /* Data.xcdatamodeld */; };
+		63D093F7267A0A5E001C52A8 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D093F6267A0A5E001C52A8 /* FlipView.swift */; };
+		63E1AFCB267D729400C29DFF /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1AFCA267D729400C29DFF /* FrontView.swift */; };
+		63E1AFCD267D731700C29DFF /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1AFCC267D731700C29DFF /* BackView.swift */; };
+		63E1AFCF267D741F00C29DFF /* FlipEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1AFCE267D741F00C29DFF /* FlipEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63065438267DB9F9001EC3C6 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		631379D02688367200B571E7 /* TagShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagShapeView.swift; sourceTree = "<group>"; };
 		638091512675FAC000688FF4 /* CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638091542675FAC000688FF4 /* CRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDApp.swift; sourceTree = "<group>"; };
 		638091562675FAC000688FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		638091582675FAC900688FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6380915B2675FAC900688FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6380915D2675FAC900688FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638091642675FC5300688FF4 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		63D093F6267A0A5E001C52A8 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		63E1AFCA267D729400C29DFF /* FrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
+		63E1AFCC267D731700C29DFF /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		63E1AFCE267D741F00C29DFF /* FlipEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 			children = (
 				638091542675FAC000688FF4 /* CRUDApp.swift */,
 				638091562675FAC000688FF4 /* ContentView.swift */,
+				63065438267DB9F9001EC3C6 /* ImagePickerView.swift */,
+				631379D02688367200B571E7 /* TagShapeView.swift */,
+				63E1AFCE267D741F00C29DFF /* FlipEffects.swift */,
+				63D093F6267A0A5E001C52A8 /* FlipView.swift */,
+				63E1AFCA267D729400C29DFF /* FrontView.swift */,
+				63E1AFCC267D731700C29DFF /* BackView.swift */,
+				638091632675FC5300688FF4 /* Data.xcdatamodeld */,
 				638091582675FAC900688FF4 /* Assets.xcassets */,
 				6380915D2675FAC900688FF4 /* Info.plist */,
 				6380915A2675FAC900688FF4 /* Preview Content */,
@@ -139,7 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				638091572675FAC000688FF4 /* ContentView.swift in Sources */,
+				638091652675FC5300688FF4 /* Data.xcdatamodeld in Sources */,
 				638091552675FAC000688FF4 /* CRUDApp.swift in Sources */,
+				63E1AFCF267D741F00C29DFF /* FlipEffects.swift in Sources */,
+				63E1AFCD267D731700C29DFF /* BackView.swift in Sources */,
+				63065439267DB9F9001EC3C6 /* ImagePickerView.swift in Sources */,
+				63D093F7267A0A5E001C52A8 /* FlipView.swift in Sources */,
+				63E1AFCB267D729400C29DFF /* FrontView.swift in Sources */,
+				631379D12688367200B571E7 /* TagShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Permapower.CRUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Permapower.CRUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		638091632675FC5300688FF4 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				638091642675FC5300688FF4 /* Data.xcdatamodel */,
+			);
+			currentVersion = 638091642675FC5300688FF4 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 638091492675FAC000688FF4 /* Project object */;
 }
