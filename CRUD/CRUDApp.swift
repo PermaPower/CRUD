@@ -11,7 +11,8 @@ import SwiftUI
 struct CRUDApp: App {
     var body: some Scene {
         WindowGroup {
-          ContentView()
+          //ContentView()
+            TagShapeView()
           /// Flip()
           //  ImagePickerView()
         }
